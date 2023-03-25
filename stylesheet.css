@@ -27,7 +27,13 @@ body {
     padding: 100px 80px;
   }
 
-  
+  .copy-container img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    max-width: 20rem;
+  }
   .copy-container h1 {
     font-size: 140px;
     text-align: center;
@@ -42,73 +48,47 @@ body {
     color: yellow;
   }
 
-  .copy-container img {
-    width: 35%;
-    flex-wrap: wrap;
-
+  .lesson-wrapper {
+    height:150px;
+    padding-bottom:80px;
+    background-color:#f7f7f7;
   }
-  
+  .heading {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    }
+  .heading h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heading p {
+    text-align: justify;
+     }
+
   .contents {
-    height: 500px;
+    height: 200px;
     margin-top: 100px;
   }
   
   .section-title {
-    border-bottom: 2px solid #dee7ec;
-    font-size: 28px;
+     font-size: 28px;
     padding-bottom: 15px;
     margin-bottom: 50px;
     text-align: center;
   }
   
-  .contents-item {
-    float: left;
-    margin-right: 40px;
-    width: 20px;
-  }
-  
-  .contents-item p {
+    .contents-item p {
     font-size: 24px;
     margin-top: 30px;
   }
-  
-  .contact-form {
-    padding-top: 100px;
+
+  .contents-item img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+       max-height:20rem;
+       justify-content: center;
   }
-  
-  /* Tambahkan CSS untuk tags <input> dan <textarea> */
-  input, textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom:30px;
-    padding:20px;
-    font-size:18px;
-    border:1px solid #dee7ec;
-  }
-  
-  /* Tambahkan CSS untuk contact-submit */
-  .contact-submit {
-    background-color:#dee7ec;
-    color:#889eab;
-  }
-  
-  .footer {
-    background-color: #2f5167;
-    color: #fff;
-    height: 120px;
-    padding: 40px;
-  }
-  
-  .footer-logo {
-    float: left;
-    font-size: 32px;
-  }
-  
-  .footer-list {
-    float: right;
-  }
-  
-  .footer-list li {
-    padding-bottom: 20px;
-  }
+
+
   
