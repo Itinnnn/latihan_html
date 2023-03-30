@@ -29,10 +29,10 @@ body {
 
   .copy-container img {
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap ;
     justify-content: center;
+    align-items: center;
     max-width: 20rem;
+    margin-left: 400px;
   }
   .copy-container h1 {
     font-size: 140px;
@@ -65,30 +65,42 @@ body {
     text-align: justify;
      }
 
-  .contents {
-    height: 200px;
-    margin-top: 100px;
-  }
+     .contents {
+      height: 400px;
+      /* Ganti property margin-top ke 100px */
+      margin-top: 5px;
+      align-items: center;
+ 
+    }
+    .contents h3 {
+      text-align: center;
+    }
+    .section-title {
+     
+      /* Ganti font-size ke 28px */
+      font-size: 28px;
+      text-align: center;
+      
+      /* Ganti property padding-bottom ke 15px */
+      padding-bottom:15px;
+      
+      /* Ganti property margin-bottom ke 50px */
+      margin-bottom:20px;
+    }
+    
+    .contents-item {
+      float: left;
+      /* Ganti margin-right ke 40px */
+      margin-right:30px;
   
-  .section-title {
-     font-size: 28px;
-    padding-bottom: 15px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
+    }
+    
+    /* Ganti font-size dan margin-top tag <p> yang di dalam contents-item */
     .contents-item p {
-    font-size: 24px;
-    margin-top: 30px;
-  }
-
-  .contents-item img {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-       max-height:20rem;
-       justify-content: center;
-  }
-
-
+      font-size:24px;
+      margin-top:30px;
+    }
+    .section-content{
+      background-color: bisque;
+    }
   
