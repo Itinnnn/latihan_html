@@ -1,106 +1,151 @@
 body {
-    font-family: "Avenir Next";
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  .header {
-    background-color: black;
-    color: #fff;
-    height: 90px;
-  }
-  
-  .header-logo {
-    float: left;
-    font-size: 36px;
-    padding: 20px 40px;
-  }
+  font-family: "Avenir Next";
+}
 
-  .header-list li {
-    float: left;
-    padding: 33px 20px;
-  }
-  
-  .main {
-    padding: 100px 80px;
-  }
+li {
+  list-style: none;
+}
 
-  .copy-container img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 20rem;
-    margin-left: 400px;
-  }
-  .copy-container h1 {
-    font-size: 140px;
-    text-align: center;
-  }
-  
-  .copy-container h2 {
-    font-size: 60px;
-    text-align: center;
-  }
-  
-  .copy-container span {
-    color: yellow;
-  }
+.header {
+  background-color: black;
+  color: #fff;
+  height: 90px;
+}
 
-  .lesson-wrapper {
-    height:150px;
-    padding-bottom:80px;
-    background-color:#f7f7f7;
-  }
-  .heading {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    }
-  .heading h2 {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .heading p {
-    text-align: justify;
-     }
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
 
-     .contents {
-      height: 400px;
-      /* Ganti property margin-top ke 100px */
-      margin-top: 5px;
-      align-items: center;
- 
-    }
-    .contents h3 {
-      text-align: center;
-    }
-    .section-title {
-     
-      /* Ganti font-size ke 28px */
-      font-size: 28px;
-      text-align: center;
-      
-      /* Ganti property padding-bottom ke 15px */
-      padding-bottom:15px;
-      
-      /* Ganti property margin-bottom ke 50px */
-      margin-bottom:20px;
-    }
-    
-    .contents-item {
-      float: left;
-      /* Ganti margin-right ke 40px */
-      margin-right:30px;
-  
-    }
-    
-    /* Ganti font-size dan margin-top tag <p> yang di dalam contents-item */
-    .contents-item p {
-      font-size:24px;
-      margin-top:30px;
-    }
-    .section-content{
-      background-color: bisque;
-    }
-  
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 20rem;
+  margin-left: 400px;
+}
+
+.copy-container h1 {
+  margin-top: 10px;
+  font-size: 140px;
+  text-align: center;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.copy-container span {
+  color: yellow;
+}
+
+.lesson-wrapper {
+  height: 150px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.heading h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heading p {
+  text-align: justify;
+}
+
+.contents {
+  height: 400px;
+  /* Ganti property margin-top ke 100px */
+  margin-top: 5px;
+  align-items: center;
+}
+
+.contents h3 {
+  text-align: center;
+}
+
+.section-title {
+  /* Ganti font-size ke 28px */
+  font-size: 28px;
+  text-align: center;
+
+  /* Ganti property padding-bottom ke 15px */
+  padding-bottom: 15px;
+
+  /* Ganti property margin-bottom ke 50px */
+  margin-bottom: 20px;
+}
+
+.contents-item {
+  float: left;
+  /* Ganti margin-right ke 40px */
+  margin-right: 30px;
+}
+
+/* Ganti font-size dan margin-top tag <p> yang di dalam contents-item */
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-form {
+  padding-top: 30px;
+  background-color: #f7f7f7;
+  height: auto;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input,
+textarea {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color: yellow;
+  color: #889eab;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(132, 134, 136);
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
